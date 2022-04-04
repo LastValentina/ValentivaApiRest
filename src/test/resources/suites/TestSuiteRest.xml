@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API test">
+    <test name="LowLevelTest">
+        <classes>
+            <class name="RestTest"/>
+        </classes>
+    </test>
+ <!--   <test name="FunctionslLevelTest">
+        <classes>
+            <class name="hw8.functional_level.CheckTextMethodTest"/>
+            <class name="hw8.functional_level.WrongWordCorrectionTest"/>
+            <class name="hw8.functional_level.CheckLangTest"/>
+            <class name="hw8.functional_level.CheckErrorCodeTest"/>
+        </classes>
+    </test> -->
+</suite>
